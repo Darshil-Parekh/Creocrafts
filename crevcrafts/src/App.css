@@ -421,6 +421,37 @@
   color: #080808;
 }
 
+.service-card + .service-card {
+  margin-top: 24px;
+}
+
+.service-card:nth-of-type(2) {
+  background: #0e3a32;
+  color: #fff;
+}
+
+.service-card:nth-of-type(3) {
+  background: #fff;
+}
+
+.service-card:nth-of-type(4) {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.service-card:nth-of-type(5) {
+  background: #ffc800;
+}
+
+.service-card:nth-of-type(6) {
+  background: #0e3a32;
+  color: #fff;
+}
+
+.service-card:nth-of-type(7) {
+  background: #fff;
+}
+
 .service-card__copy {
   align-self: start;
   padding: clamp(28px, 4.5vw, 72px) clamp(18px, 2vw, 32px) 0 clamp(20px, 4vw, 48px);
@@ -458,6 +489,12 @@
   border: 1px solid #161616;
   border-radius: 999px;
   font-size: clamp(9px, .85vw, 12px);
+}
+
+.service-card:nth-of-type(2) .service-card__tags span,
+.service-card:nth-of-type(4) .service-card__tags span,
+.service-card:nth-of-type(6) .service-card__tags span {
+  border-color: #fff;
 }
 
 .service-card__visual {

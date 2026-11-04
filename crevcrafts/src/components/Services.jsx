@@ -1,4 +1,11 @@
 import chessImage from '../Images/chess.png'
+import brandMakingImage from '../Images/2.png'
+import digitalMarketing from '../Images/3.png'
+import perfomenceMarketing from '../Images/4.png'
+import Design from '../Images/5.png'
+import webEcommerce from '../Images/6.png'
+import Video from '../Images/7.png'
+
 
 function Services() {
   return (
@@ -53,7 +60,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={chessImage} alt="Chess pieces, a target and an arrow representing strategic growth" />
+          <img src={brandMakingImage} alt="Brand-making visual" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>
@@ -72,7 +79,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={chessImage} alt="Chess pieces, a target and an arrow representing strategic growth" />
+          <img src={digitalMarketing} alt="Chess pieces, a target and an arrow representing strategic growth" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>
@@ -90,7 +97,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={chessImage} alt="Chess pieces, a target and an arrow representing strategic growth" />
+          <img src={perfomenceMarketing} alt="Chess pieces, a target and an arrow representing strategic growth" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>
@@ -108,7 +115,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={chessImage} alt="Chess pieces, a target and an arrow representing strategic growth" />
+          <img src={Design} alt="Chess pieces, a target and an arrow representing strategic growth" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>
@@ -126,7 +133,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={chessImage} alt="Chess pieces, a target and an arrow representing strategic growth" />
+          <img src={webEcommerce} alt="Chess pieces, a target and an arrow representing strategic growth" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>
@@ -144,7 +151,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={chessImage} alt="Chess pieces, a target and an arrow representing strategic growth" />
+          <img src={Video} alt="Chess pieces, a target and an arrow representing strategic growth" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>
