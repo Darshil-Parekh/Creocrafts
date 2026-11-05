@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Services from './components/Services'
 import Portfolio from './components/Portfolio'
 import Client from './components/Client'
+import Purpose from './components/Purpose'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services/>
       <Portfolio/>
       <Client/>
+      <Purpose/>
     </main>
     </>
   )
