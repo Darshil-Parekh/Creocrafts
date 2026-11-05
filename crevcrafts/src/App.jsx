@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio'
 import Client from './components/Client'
 import Purpose from './components/Purpose'
 import Numbers from './components/Numbers'
+import Subsribe from './components/Subsribe'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Client/>
       <Purpose/>
       <Numbers/>
+      <Subsribe/>
     </main>
     </>
   )
