@@ -1,40 +1,40 @@
-import brochureImage from '../Images/8.jpg'
-import websiteImage from '../Images/9.jpg'
-import socialImage from '../Images/10.jpg'
-import brandImage from '../Images/11.jpg'
-import websiteBlueImage from '../Images/12.jpg'
-import campaignImage from '../Images/13.jpg'
+import mobileImage from '../Images/13.jpg'
+import laptopImage from '../Images/12.jpg'
+import chopdaImage from '../Images/8.jpg'
+import blueLaptop from '../Images/11.jpg'
+import officeImage from '../Images/10.jpg'
+import robotImage from '../Images/9.jpg'
 
 const projects = [
   {
     title: 'Social Media Campaign & Creative Design',
     category: 'Social Media',
-    image: socialImage,
+    image: mobileImage ,
   },
   {
     title: 'Corporate Website Design & Digital Experience',
     category: 'Web & E-Commerce',
-    image: websiteBlueImage,
+    image: laptopImage,
   },
   {
     title: 'Corporate Brochure & Company Profile Design',
     category: 'Design',
-    image: brochureImage,
+    image: chopdaImage,
   },
   {
     title: 'Corporate Website Design & Digital Experience',
     category: 'Web & E-Commerce',
-    image: websiteImage,
+    image: blueLaptop ,
   },
   {
     title: 'Corporate Brand Identity & Visual Branding',
     category: 'Design',
-    image: brandImage,
+    image: officeImage,
   },
   {
-    title: 'Corporate Website Design & Digital Experience',
-    category: 'Web & E-Commerce',
-    image: campaignImage,
+    title: 'Social Media Campaign & Creative Design',
+    category: 'Social Media ',
+    image: robotImage ,
   },
 ]
 
@@ -61,7 +61,9 @@ function Portfolio() {
             </div>
             <div className="portfolio-card__content">
               <h3>{project.title}</h3>
-              <span>{project.category}</span>
+              <button className="portfolio-card__button" type="button">
+                {project.category}
+              </button>
             </div>
           </article>
         ))}
