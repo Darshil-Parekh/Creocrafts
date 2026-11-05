@@ -8,12 +8,16 @@ const Subscribe = () => {
 
         {/* Decorative Images */}
         <img
+          loading="lazy"
+          decoding="async"
           src={arrow}
           alt=""
           className="subscribe-arrow"
         />
 
         <img
+          loading="lazy"
+          decoding="async"
           src={bulb}
           alt=""
           className="subscribe-bulb"

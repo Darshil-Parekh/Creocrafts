@@ -6,6 +6,8 @@ const Purpose = () => {
 
       {/* Background Image */}
       <img
+        loading="lazy"
+        decoding="async"
         src={purposeImage}
         alt="Creative business strategy illustration"
         className="purpose-bg-image"

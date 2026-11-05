@@ -40,7 +40,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={chessImage} alt="Chess pieces, a target and an arrow representing strategic growth" />
+          <img loading="lazy" decoding="async" src={chessImage} alt="Chess pieces, a target and an arrow representing strategic growth" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>
@@ -60,7 +60,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={brandMakingImage} alt="Brand-making visual" />
+          <img loading="lazy" decoding="async" src={brandMakingImage} alt="Brand-making visual" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>
@@ -79,7 +79,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={digitalMarketing} alt="Chess pieces, a target and an arrow representing strategic growth" />
+          <img loading="lazy" decoding="async" src={digitalMarketing} alt="Chess pieces, a target and an arrow representing strategic growth" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>
@@ -97,7 +97,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={perfomenceMarketing} alt="Chess pieces, a target and an arrow representing strategic growth" />
+          <img loading="lazy" decoding="async" src={perfomenceMarketing} alt="Chess pieces, a target and an arrow representing strategic growth" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>
@@ -115,7 +115,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={Design} alt="Chess pieces, a target and an arrow representing strategic growth" />
+          <img loading="lazy" decoding="async" src={Design} alt="Chess pieces, a target and an arrow representing strategic growth" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>
@@ -133,7 +133,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={webEcommerce} alt="Chess pieces, a target and an arrow representing strategic growth" />
+          <img loading="lazy" decoding="async" src={webEcommerce} alt="Chess pieces, a target and an arrow representing strategic growth" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>
@@ -151,7 +151,7 @@ function Services() {
           </div>
         </div>
         <div className="service-card__visual">
-          <img src={Video} alt="Chess pieces, a target and an arrow representing strategic growth" />
+          <img loading="lazy" decoding="async" src={Video} alt="Chess pieces, a target and an arrow representing strategic growth" />
           <span className="service-card__arrow" aria-hidden="true">↗</span>
         </div>
       </article>

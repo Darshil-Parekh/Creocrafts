@@ -7,6 +7,7 @@ import Client from './components/Client'
 import Purpose from './components/Purpose'
 import Numbers from './components/Numbers'
 import Subsribe from './components/Subsribe'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Numbers/>
       <Subsribe/>
     </main>
+    <Footer/>
     </>
   )
 }

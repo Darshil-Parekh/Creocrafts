@@ -57,7 +57,7 @@ function Portfolio() {
         {projects.map((project) => (
           <article className="portfolio-card" key={`${project.title}-${project.image}`}>
             <div className="portfolio-card__image">
-              <img src={project.image} alt="" />
+              <img loading="lazy" decoding="async" src={project.image} alt="" />
             </div>
             <div className="portfolio-card__content">
               <h3>{project.title}</h3>

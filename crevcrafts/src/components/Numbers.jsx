@@ -51,6 +51,8 @@ const Numbers = () => {
             </div>
 
             <img
+              loading="lazy"
+              decoding="async"
               src={shop}
               alt="Creative storefront illustration"
               className="number-image shop-image"
@@ -65,6 +67,8 @@ const Numbers = () => {
             </div>
 
             <img
+              loading="lazy"
+              decoding="async"
               src={number2}
               alt="Achievement illustration"
               className="number-image number2-image"
@@ -79,6 +83,8 @@ const Numbers = () => {
             </div>
 
             <img
+              loading="lazy"
+              decoding="async"
               src={number3}
               alt="Global network illustration"
               className="number-image number3-image"
@@ -93,6 +99,8 @@ const Numbers = () => {
             </div>
 
             <img
+              loading="lazy"
+              decoding="async"
               src={number4}
               alt="Creative projects illustration"
               className="number-image number4-image"
@@ -102,6 +110,8 @@ const Numbers = () => {
           {/* Card 5 - Yellow */}
           <div className="number-card yellow-card">
             <img
+              loading="lazy"
+              decoding="async"
               src={number5}
               alt="Experience and achievement illustration"
               className="number-image number5-image"

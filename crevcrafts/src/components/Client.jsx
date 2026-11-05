@@ -96,6 +96,8 @@ const Portfolio = () => {
                 {/* Humanbook Icon */}
                 {client.icon && (
                   <img
+                    loading="lazy"
+                    decoding="async"
                     src={client.icon}
                     alt=""
                     className="client-icon"
@@ -105,6 +107,8 @@ const Portfolio = () => {
                 {/* Client Logo */}
                 {client.logo && (
                   <img
+                    loading="lazy"
+                    decoding="async"
                     src={client.logo}
                     alt={client.name}
                     className="client-logo"
