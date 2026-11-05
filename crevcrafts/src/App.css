@@ -782,3 +782,233 @@
     margin-top: 34px;
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.clients-section {
+  width: 100%;
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  padding: 50px 0 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clients-container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Top Label */
+
+.clients-tag {
+  width: 119px;
+  height: 30px;
+  border: 1px solid #292929;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  font-size: 9px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+
+.tag-dot {
+  width: 5px;
+  height: 5px;
+  background: #ffd500;
+  border-radius: 50%;
+}
+
+/* Heading and Description */
+
+.clients-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.clients-heading h1 {
+  font-size: clamp(34px, 4vw, 48px);
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: -1.5px;
+  margin: 0 0 12px;
+}
+
+.clients-heading h1 span {
+  color: #ffd500;
+  font-weight: 700;
+}
+
+.clients-heading p {
+  color: #bdbdbd;
+  font-size: 12px;
+  line-height: 1.7;
+  max-width: 430px;
+  margin: 0;
+}
+
+.clients-description {
+  padding-top: 18px;
+}
+
+.clients-description p {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #d0d0d0;
+  margin: 0 0 18px;
+}
+
+/* Client Cards */
+
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.client-card {
+  height: 105px;
+  background: #1e1e1e;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.client-card:hover {
+  background: #292929;
+  transform: translateY(-3px);
+}
+
+.client-logo {
+  display: block;
+  max-width: 85%;
+  max-height: 65px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.logo-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Footer */
+
+.clients-footer {
+  text-align: center;
+  margin-top: 28px;
+  font-size: 12px;
+  color: #eee;
+  letter-spacing: 0.1px;
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+  .clients-section {
+    padding: 40px 0 25px;
+  }
+
+  .clients-intro {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .clients-description {
+    padding-top: 0;
+  }
+
+  .clients-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .client-card {
+    height: 100px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+  .clients-container {
+    width: 92%;
+  }
+
+  .clients-heading h1 {
+    font-size: 36px;
+  }
+
+  .clients-heading p,
+  .clients-description p {
+    font-size: 11px;
+  }
+
+  .clients-grid {
+    gap: 9px;
+  }
+
+  .client-card {
+    height: 85px;
+    padding: 12px;
+    border-radius: 9px;
+  }
+
+  .client-logo {
+    max-height: 55px;
+  }
+
+  .clients-footer {
+    font-size: 10px;
+  }
+}
+
+.client-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.client-icon {
+  width: 25px;
+  height: 35px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.client-logo {
+  max-width: 85%;
+  max-height: 60px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Humanbook first card */
+.client-card:first-child .client-icon {
+  width: 24px;
+  height: 32px;
+}
+
+.client-card:first-child .client-logo {
+  max-width: 115px;
+  max-height: 45px;
+}
