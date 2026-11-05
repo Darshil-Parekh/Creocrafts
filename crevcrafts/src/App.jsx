@@ -5,6 +5,7 @@ import Services from './components/Services'
 import Portfolio from './components/Portfolio'
 import Client from './components/Client'
 import Purpose from './components/Purpose'
+import Numbers from './components/Numbers'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Portfolio/>
       <Client/>
       <Purpose/>
+      <Numbers/>
     </main>
     </>
   )

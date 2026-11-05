@@ -1190,3 +1190,505 @@
     margin-bottom: 13px;
   }
 }
+
+/* =====================================
+   NUMBERS / ACHIEVEMENTS SECTION
+===================================== */
+
+.numbers-section {
+  width: 100%;
+  min-height: 100vh;
+  background: #000000;
+  color: #ffffff;
+  padding: 55px 0 45px;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.numbers-container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* =====================================
+   HEADER
+===================================== */
+
+.numbers-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+  gap: 35px;
+  margin-bottom: 28px;
+}
+
+.numbers-tag {
+  width: 130px;
+  height: 30px;
+  border: 1px solid #292929;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  margin-bottom: 14px;
+}
+
+.numbers-dot {
+  width: 5px;
+  height: 5px;
+  background: #ffca05;
+  border-radius: 50%;
+}
+
+.numbers-heading h1 {
+  font-size: clamp(32px, 4vw, 46px);
+  line-height: 1.12;
+  font-weight: 400;
+  letter-spacing: -1.5px;
+  margin: 0;
+}
+
+.numbers-heading h1 span {
+  color: #ffca05;
+  font-weight: 700;
+}
+
+.numbers-description {
+  padding-bottom: 3px;
+}
+
+.numbers-description p {
+  font-size: 12px;
+  line-height: 1.7;
+  color: #c5c5c5;
+  margin: 0 0 12px;
+  max-width: 480px;
+}
+
+/* =====================================
+   BENTO GRID
+===================================== */
+
+.numbers-grid {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr));
+  gap: 10px;
+}
+
+/* =====================================
+   COMMON CARD STYLING
+===================================== */
+
+.number-card {
+  position: relative;
+  min-width: 0;
+  height: 180px;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.number-card:hover {
+  transform: translateY(-3px);
+}
+
+/* =====================================
+   CARD 1 - SHOP
+===================================== */
+
+.shop-card {
+  grid-column: span 5;
+  background: #ffca05;
+  color: #000000;
+}
+
+.shop-card .number-info {
+  position: absolute;
+  left: 7%;
+  bottom: 10%;
+  z-index: 2;
+}
+
+.shop-card .number-info h2 {
+  font-size: 36px;
+  line-height: 1;
+  margin: 0 0 7px;
+  font-weight: 700;
+}
+
+.shop-image {
+  position: absolute;
+  width: 62%;
+  height: 88%;
+  right: 3%;
+  top: 3%;
+  object-fit: contain;
+}
+
+/* =====================================
+   CARD 2 - GREEN
+===================================== */
+
+.green-card {
+  grid-column: span 5;
+  background: #073b32;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.green-card .number-info {
+  position: absolute;
+  right: 7%;
+  top: 10%;
+  text-align: center;
+  z-index: 2;
+}
+
+.green-card .number-info h2 {
+  font-size: 40px;
+  line-height: 1;
+  margin: 0 0 7px;
+  font-weight: 700;
+}
+
+.number2-image {
+  position: absolute;
+  width: 58%;
+  height: 72%;
+  left: 3%;
+  bottom: 2%;
+  object-fit: contain;
+}
+
+/* =====================================
+   CARD 3 - WHITE FULL WIDTH
+===================================== */
+
+.white-card {
+  grid-column: span 10;
+  height: 180px;
+  background: #ffffff;
+  color: #000000;
+  padding-left: 7%;
+}
+
+.white-card .number-info {
+  margin-left: 3%;
+  z-index: 2;
+}
+
+.white-card .number-info h2 {
+  font-size: 40px;
+  line-height: 1;
+  margin: 0 0 7px;
+  font-weight: 700;
+}
+
+.number3-image {
+  position: absolute;
+  width: 47%;
+  height: 90%;
+  right: 4%;
+  top: 5%;
+  object-fit: contain;
+}
+
+/* =====================================
+   CARD 4 - DARK
+===================================== */
+
+.dark-card {
+  grid-column: span 4;
+  height: 180px;
+  background: #202020;
+  color: #ffffff;
+  align-items: flex-start;
+}
+
+.dark-card .number-info {
+  position: absolute;
+  left: 9%;
+  top: 9%;
+  z-index: 2;
+}
+
+.dark-card .number-info h2 {
+  font-size: 34px;
+  line-height: 1;
+  margin: 0 0 7px;
+  font-weight: 700;
+}
+
+.number4-image {
+  position: absolute;
+  width: 78%;
+  height: 68%;
+  bottom: 2%;
+  right: 5%;
+  object-fit: contain;
+}
+
+/* =====================================
+   CARD 5 - YELLOW
+===================================== */
+
+.yellow-card {
+  grid-column: span 6;
+  height: 180px;
+  background: #ffca05;
+  color: #000000;
+  padding: 0;
+}
+
+/* Calendar Image */
+
+.number5-image {
+  position: absolute;
+  width: 58%;
+  height: 88%;
+  left: 3%;
+  top: 3%;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* 9+ Number */
+
+.yellow-card .number-info {
+  position: absolute;
+  right: 7%;
+  bottom: 10%;
+  text-align: right;
+  z-index: 2;
+}
+
+.yellow-card .number-info h2 {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 0 0 7px;
+}
+
+.yellow-card .number-info span {
+  display: block;
+  font-size: 7px;
+  font-weight: 500;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+/* =====================================
+   COMMON NUMBER LABELS
+===================================== */
+
+.number-info {
+  position: relative;
+  z-index: 2;
+}
+
+.number-info span {
+  display: block;
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  opacity: 0.8;
+}
+
+/* =====================================
+   TABLET RESPONSIVE
+===================================== */
+
+@media (max-width: 768px) {
+
+  .numbers-section {
+    padding: 45px 0;
+  }
+
+  .numbers-container {
+    width: 94%;
+  }
+
+  .numbers-header {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .numbers-description {
+    max-width: 550px;
+  }
+
+  .number-card {
+    height: 165px;
+  }
+
+  .white-card {
+    height: 170px;
+  }
+
+  .dark-card,
+  .yellow-card {
+    height: 160px;
+  }
+
+  .number-info h2 {
+    font-size: 32px;
+  }
+
+  .yellow-card .number-info h2 {
+    font-size: 34px;
+  }
+}
+
+/* =====================================
+   MOBILE RESPONSIVE
+===================================== */
+
+@media (max-width: 480px) {
+
+  .numbers-section {
+    padding: 35px 0;
+  }
+
+  .numbers-container {
+    width: 94%;
+  }
+
+  .numbers-header {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .numbers-heading h1 {
+    font-size: 34px;
+    letter-spacing: -1px;
+  }
+
+  .numbers-description p {
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
+  .numbers-grid {
+    gap: 8px;
+  }
+
+  .number-card {
+    height: 145px;
+    padding: 12px;
+    border-radius: 7px;
+  }
+
+  .white-card {
+    height: 155px;
+  }
+
+  .dark-card,
+  .yellow-card {
+    height: 145px;
+  }
+
+  /* Card 1 */
+
+  .shop-card .number-info {
+    left: 7%;
+    bottom: 9%;
+  }
+
+  .shop-card .number-info h2 {
+    font-size: 28px;
+  }
+
+  .shop-image {
+    width: 65%;
+    height: 78%;
+    right: 1%;
+  }
+
+  /* Card 2 */
+
+  .green-card .number-info {
+    right: 5%;
+    top: 10%;
+  }
+
+  .green-card .number-info h2 {
+    font-size: 29px;
+  }
+
+  .number2-image {
+    width: 65%;
+    height: 65%;
+  }
+
+  /* Card 3 */
+
+  .white-card .number-info h2 {
+    font-size: 32px;
+  }
+
+  .number3-image {
+    width: 52%;
+    height: 85%;
+    right: 2%;
+  }
+
+  /* Card 4 */
+
+  .dark-card .number-info {
+    left: 8%;
+    top: 8%;
+  }
+
+  .dark-card .number-info h2 {
+    font-size: 27px;
+  }
+
+  .number4-image {
+    width: 90%;
+    height: 65%;
+    right: 2%;
+  }
+
+  /* Card 5 */
+
+  .yellow-card {
+    padding: 0;
+  }
+
+  .number5-image {
+    width: 58%;
+    height: 85%;
+    left: 2%;
+    top: 3%;
+  }
+
+  .yellow-card .number-info {
+    right: 6%;
+    bottom: 9%;
+  }
+
+  .yellow-card .number-info h2 {
+    font-size: 29px;
+    margin-bottom: 5px;
+  }
+
+  .yellow-card .number-info span {
+    font-size: 6px;
+  }
+
+  /* Labels */
+
+  .number-info span {
+    font-size: 6px;
+  }
+}
+
